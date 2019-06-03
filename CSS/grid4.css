@@ -1,0 +1,238 @@
+* {
+   margin:0;
+   padding: 0;
+   font-family: Questrial, serif;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 70px 35vw 50vw 1fr;
+  }
+.navigation {
+  padding-left: 25%;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 3%;
+
+}
+li {
+  float: left;
+  display: inline-block;
+  padding-left: 1vw;
+  color: black;
+  font-size: 1vw;
+}
+
+.Logo {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.content1 {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  position: relative;
+}
+.content2 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  position: relative;
+  background-color: white;
+}
+.content3 {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  position: relative;
+}
+.footer1 {
+grid-column: 1/3;
+grid-row: 5/6;
+background-color: #EDF2F4;
+}
+
+p {
+  float: left;
+  padding-top: 0.3%;
+  font-size: 1.5vw;
+}
+a {
+    color: black;
+}
+.languagepicker {
+padding-left: 30%;
+}
+.h1 {
+  position: absolute;
+  top: 7vw;
+  left: 10%;
+  color: black;
+  font-size: 2VW;
+}
+.text1 {
+    position: absolute;
+    top: 10vw;
+    left: 3%;
+    color: black;
+    font-size: 1.5VW;
+}
+.h2 {
+  position: absolute;
+  top: 7vw;
+  left: 60%;
+  color: black;
+  font-size: 2VW;
+}
+.text2 {
+    position: absolute;
+    top: 10vw;
+    left: 54%;
+    color: black;
+    font-size: 1.5VW;
+}
+.hoofd{
+  position: absolute;
+  top: 7vw;
+  left: 38%;
+}
+.Illustrator{
+  position: absolute;
+  top: 7vw;
+  left: 90%;
+}
+.Premiere{
+  position: absolute;
+  top: 11.5vw;
+  left: 90%;
+}
+.Photoshop {
+  position: absolute;
+  top: 16vw;
+  left: 90%;
+}
+.Ae {
+  position: absolute;
+  top: 20.5vw;
+  left: 90%;
+}
+.Html {
+  position: absolute;
+  top: 20.5vw;
+  left: 85%;
+}
+.Css {
+  top: 20.5vw;
+  left: 80%;
+  position: absolute;
+}
+.Javascript {
+  top: 20.5vw;
+  left: 75%;
+  position: absolute;
+}
+.Office {
+  top: 20.5vw;
+  left: 70%;
+  position: absolute;
+}
+.btn1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition-duration: 0.4s;
+    background-color: white;
+    color: #3A2E39;
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    visibility: hidden;
+}
+.btn1:hover {
+    background-color: #3A2E39;
+    color: #EFF1F3;
+}
+.btn2 {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition-duration: 0.4s;
+    background-color: #3A2E39;
+    color: #EFF1F3;
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    border: 2px solid #3A2E39;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn2:hover {
+  background-color: #EFF1F3;
+  border-color: #3A2E39;;
+  color: #3A2E39;
+}
+.text3 {
+      position: absolute;
+      top: 16vw;
+      left: 8%;
+      color: black;
+      font-size: 1.2VW;
+}
+.text4 {
+      position: absolute;
+      top: 16vw;
+      right: 8%;
+      color: black;
+      font-size: 1.2VW;
+}
+.spotify {
+  position: absolute;
+  top: 5vw;
+  left: 8%;
+  color: black;
+  font-size: 1.2VW;
+}
+.text5 {
+  position: absolute;
+  top: 5vw;
+  left: 55%;
+  color: black;
+  font-size: 1.5VW;
+}
+.text6 {
+      position: absolute;
+      top: 16vw;
+      left: 8%;
+      color: white;
+      font-size: 1.2VW;
+      visibility: hidden;
+}
+.text7 {
+      position: absolute;
+      top: 16vw;
+      right: 8%;
+      color: white;
+      font-size: 1.2VW;
+      visibility: hidden;
+}
+.text8 {
+  position: absolute;
+  top: 20vw;
+  left: 55%;
+  color: black;
+  font-size: 1.5VW;
+}
+.text9 {
+  position: absolute;
+  top: 38vw;
+  left: 55%;
+  color: black;
+  font-size: 1.5VW;
+}
